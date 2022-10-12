@@ -1,0 +1,12 @@
+D:\Documents\uni\5 сем\спп\lab_1\Tracer\Tracer.Core\bin\Debug\net6.0\Tracer.Core.deps.json
+D:\Documents\uni\5 сем\спп\lab_1\Tracer\Tracer.Core\bin\Debug\net6.0\Tracer.Core.dll
+D:\Documents\uni\5 сем\спп\lab_1\Tracer\Tracer.Core\bin\Debug\net6.0\Tracer.Core.pdb
+D:\Documents\uni\5 сем\спп\lab_1\Tracer\Tracer.Core\obj\Debug\net6.0\Tracer.Core.csproj.AssemblyReference.cache
+D:\Documents\uni\5 сем\спп\lab_1\Tracer\Tracer.Core\obj\Debug\net6.0\Tracer.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documents\uni\5 сем\спп\lab_1\Tracer\Tracer.Core\obj\Debug\net6.0\Tracer.Core.AssemblyInfoInputs.cache
+D:\Documents\uni\5 сем\спп\lab_1\Tracer\Tracer.Core\obj\Debug\net6.0\Tracer.Core.AssemblyInfo.cs
+D:\Documents\uni\5 сем\спп\lab_1\Tracer\Tracer.Core\obj\Debug\net6.0\Tracer.Core.csproj.CoreCompileInputs.cache
+D:\Documents\uni\5 сем\спп\lab_1\Tracer\Tracer.Core\obj\Debug\net6.0\Tracer.Core.dll
+D:\Documents\uni\5 сем\спп\lab_1\Tracer\Tracer.Core\obj\Debug\net6.0\refint\Tracer.Core.dll
+D:\Documents\uni\5 сем\спп\lab_1\Tracer\Tracer.Core\obj\Debug\net6.0\Tracer.Core.pdb
+D:\Documents\uni\5 сем\спп\lab_1\Tracer\Tracer.Core\obj\Debug\net6.0\ref\Tracer.Core.dll

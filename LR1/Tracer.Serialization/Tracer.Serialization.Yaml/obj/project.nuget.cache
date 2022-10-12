@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "mhz6gSJuEa8WKVlOytkh7HeIJ2DqDWicZcFKEooW4LbYqlWY9KcHbnqh2bPdz8Nw15B9r+y6dgRBSnqsFAk4Gw==",
+  "success": true,
+  "projectFilePath": "D:\\Documents\\uni\\5 сем\\спп\\lab_1\\Tracer.Serialization\\Tracer.Serialization.Yaml\\Tracer.Serialization.Yaml.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\tanja\\.nuget\\packages\\yamldotnet\\12.0.0\\yamldotnet.12.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

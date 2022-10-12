@@ -1,0 +1,17 @@
+D:\Documents\uni\5 сем\спп\lab_1\Tracer.Serialization\Tracer.Serialization.Yaml\bin\Debug\net6.0\Tracer.Serialization.Yaml.deps.json
+D:\Documents\uni\5 сем\спп\lab_1\Tracer.Serialization\Tracer.Serialization.Yaml\bin\Debug\net6.0\Tracer.Serialization.Yaml.dll
+D:\Documents\uni\5 сем\спп\lab_1\Tracer.Serialization\Tracer.Serialization.Yaml\bin\Debug\net6.0\Tracer.Serialization.Yaml.pdb
+D:\Documents\uni\5 сем\спп\lab_1\Tracer.Serialization\Tracer.Serialization.Yaml\bin\Debug\net6.0\Tracer.Core.dll
+D:\Documents\uni\5 сем\спп\lab_1\Tracer.Serialization\Tracer.Serialization.Yaml\bin\Debug\net6.0\Tracer.Serialization.Abstractions.dll
+D:\Documents\uni\5 сем\спп\lab_1\Tracer.Serialization\Tracer.Serialization.Yaml\bin\Debug\net6.0\Tracer.Core.pdb
+D:\Documents\uni\5 сем\спп\lab_1\Tracer.Serialization\Tracer.Serialization.Yaml\bin\Debug\net6.0\Tracer.Serialization.Abstractions.pdb
+D:\Documents\uni\5 сем\спп\lab_1\Tracer.Serialization\Tracer.Serialization.Yaml\obj\Debug\net6.0\Tracer.Serialization.Yaml.csproj.AssemblyReference.cache
+D:\Documents\uni\5 сем\спп\lab_1\Tracer.Serialization\Tracer.Serialization.Yaml\obj\Debug\net6.0\Tracer.Serialization.Yaml.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documents\uni\5 сем\спп\lab_1\Tracer.Serialization\Tracer.Serialization.Yaml\obj\Debug\net6.0\Tracer.Serialization.Yaml.AssemblyInfoInputs.cache
+D:\Documents\uni\5 сем\спп\lab_1\Tracer.Serialization\Tracer.Serialization.Yaml\obj\Debug\net6.0\Tracer.Serialization.Yaml.AssemblyInfo.cs
+D:\Documents\uni\5 сем\спп\lab_1\Tracer.Serialization\Tracer.Serialization.Yaml\obj\Debug\net6.0\Tracer.Serialization.Yaml.csproj.CoreCompileInputs.cache
+D:\Documents\uni\5 сем\спп\lab_1\Tracer.Serialization\Tracer.Serialization.Yaml\obj\Debug\net6.0\Tracer.Serialization.Yaml.csproj.CopyComplete
+D:\Documents\uni\5 сем\спп\lab_1\Tracer.Serialization\Tracer.Serialization.Yaml\obj\Debug\net6.0\Tracer.Serialization.Yaml.dll
+D:\Documents\uni\5 сем\спп\lab_1\Tracer.Serialization\Tracer.Serialization.Yaml\obj\Debug\net6.0\refint\Tracer.Serialization.Yaml.dll
+D:\Documents\uni\5 сем\спп\lab_1\Tracer.Serialization\Tracer.Serialization.Yaml\obj\Debug\net6.0\Tracer.Serialization.Yaml.pdb
+D:\Documents\uni\5 сем\спп\lab_1\Tracer.Serialization\Tracer.Serialization.Yaml\obj\Debug\net6.0\ref\Tracer.Serialization.Yaml.dll

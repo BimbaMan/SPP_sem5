@@ -1,0 +1,53 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Tracer.Serialization.Xml/1.0.0": {
+        "dependencies": {
+          "Tracer.Core": "1.0.0.0",
+          "Tracer.Serialization.Abstractions": "1.0.0.0"
+        },
+        "runtime": {
+          "Tracer.Serialization.Xml.dll": {}
+        }
+      },
+      "Tracer.Core/1.0.0.0": {
+        "runtime": {
+          "Tracer.Core.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Tracer.Serialization.Abstractions/1.0.0.0": {
+        "runtime": {
+          "Tracer.Serialization.Abstractions.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Tracer.Serialization.Xml/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Tracer.Core/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Tracer.Serialization.Abstractions/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

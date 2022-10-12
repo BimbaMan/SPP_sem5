@@ -1,0 +1,36 @@
+Threadslist:
+- Id: 1
+  InnerMethods:
+  - InnerMethods:
+    - InnerMethods:
+      - InnerMethods: []
+        Method_name: Sec_InnerMethod
+        Method_class: Bar
+        TimeSpans: 65
+      Method_name: InnerMethod
+      Method_class: Bar
+      TimeSpans: 170
+    - InnerMethods:
+      - InnerMethods: []
+        Method_name: Sec_InnerMethod
+        Method_class: Bar
+        TimeSpans: 58
+      Method_name: InnerMethod
+      Method_class: Bar
+      TimeSpans: 161
+    - InnerMethods: []
+      Method_name: Sec_InnerMethod
+      Method_class: Bar
+      TimeSpans: 53
+    - InnerMethods:
+      - InnerMethods: []
+        Method_name: Sec_InnerMethod
+        Method_class: Bar
+        TimeSpans: 60
+      Method_name: InnerMethod
+      Method_class: Bar
+      TimeSpans: 164
+    Method_name: MyMethod
+    Method_class: Foo
+    TimeSpans: 762
+  TotalTime: 762

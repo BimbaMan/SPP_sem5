@@ -1,0 +1,9 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=D_003A_005CDocuments_005Cuni_005C5_0020_0441_0435_043C_005C_0441_043F_043F_005Clab_005F1_005CTracer_005CTracer_002ECore_005Cbin_005CDebug_005Cnet6_002E0_005CTracer_002ECore_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=D_003A_005CDocuments_005Cuni_005C5_0020_0441_0435_043C_005C_0441_043F_043F_005Clab_005F1_005CTracer_005CTracer_002ECore_005CStructure_005CTraceResult_002Ecs/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=D_003A_005CDocuments_005Cuni_005C5_0020_0441_0435_043C_005C_0441_043F_043F_005Clab_005F1_005CTracer_005CTracer_002ECore_005CTracer_002Ecs/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=D_003A_005CDocuments_005Cuni_005C5_0020_0441_0435_043C_005C_0441_043F_043F_005Clab_005F1_005CTracer_005CTracer_002ESerialization_002EAbstractions_005Cbin_005CDebug_005Cnet6_002E0_005CTracer_002ESerialization_002EAbstractions_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=D_003A_005CDocuments_005Cuni_005C5_0020_0441_0435_043C_005C_0441_043F_043F_005Clab_005F1_005CTracer_005CTracer_002Esln/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/CodeInspection/PencilsConfiguration/FiltersState/=CodeStyle/@EntryIndexedValue">Off</s:String>
+	<s:String x:Key="/Default/CodeInspection/PencilsConfiguration/FiltersState/=NamingFilter/@EntryIndexedValue">Off</s:String>
+	<s:String x:Key="/Default/CodeInspection/PencilsConfiguration/FiltersState/=SpellingFilter/@EntryIndexedValue">Off</s:String></wpf:ResourceDictionary>

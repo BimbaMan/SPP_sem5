@@ -1,0 +1,15 @@
+D:\Documents\uni\5 сем\спп\lab_1\Tracer\Tracer.Serialization.Abstractions\bin\Debug\net6.0\Tracer.Serialization.Abstractions.deps.json
+D:\Documents\uni\5 сем\спп\lab_1\Tracer\Tracer.Serialization.Abstractions\bin\Debug\net6.0\Tracer.Serialization.Abstractions.dll
+D:\Documents\uni\5 сем\спп\lab_1\Tracer\Tracer.Serialization.Abstractions\bin\Debug\net6.0\Tracer.Serialization.Abstractions.pdb
+D:\Documents\uni\5 сем\спп\lab_1\Tracer\Tracer.Serialization.Abstractions\bin\Debug\net6.0\Tracer.Core.dll
+D:\Documents\uni\5 сем\спп\lab_1\Tracer\Tracer.Serialization.Abstractions\bin\Debug\net6.0\Tracer.Core.pdb
+D:\Documents\uni\5 сем\спп\lab_1\Tracer\Tracer.Serialization.Abstractions\obj\Debug\net6.0\Tracer.Serialization.Abstractions.csproj.AssemblyReference.cache
+D:\Documents\uni\5 сем\спп\lab_1\Tracer\Tracer.Serialization.Abstractions\obj\Debug\net6.0\Tracer.Serialization.Abstractions.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documents\uni\5 сем\спп\lab_1\Tracer\Tracer.Serialization.Abstractions\obj\Debug\net6.0\Tracer.Serialization.Abstractions.AssemblyInfoInputs.cache
+D:\Documents\uni\5 сем\спп\lab_1\Tracer\Tracer.Serialization.Abstractions\obj\Debug\net6.0\Tracer.Serialization.Abstractions.AssemblyInfo.cs
+D:\Documents\uni\5 сем\спп\lab_1\Tracer\Tracer.Serialization.Abstractions\obj\Debug\net6.0\Tracer.Serialization.Abstractions.csproj.CoreCompileInputs.cache
+D:\Documents\uni\5 сем\спп\lab_1\Tracer\Tracer.Serialization.Abstractions\obj\Debug\net6.0\Tracer.Serialization.Abstractions.csproj.CopyComplete
+D:\Documents\uni\5 сем\спп\lab_1\Tracer\Tracer.Serialization.Abstractions\obj\Debug\net6.0\Tracer.Serialization.Abstractions.dll
+D:\Documents\uni\5 сем\спп\lab_1\Tracer\Tracer.Serialization.Abstractions\obj\Debug\net6.0\refint\Tracer.Serialization.Abstractions.dll
+D:\Documents\uni\5 сем\спп\lab_1\Tracer\Tracer.Serialization.Abstractions\obj\Debug\net6.0\Tracer.Serialization.Abstractions.pdb
+D:\Documents\uni\5 сем\спп\lab_1\Tracer\Tracer.Serialization.Abstractions\obj\Debug\net6.0\ref\Tracer.Serialization.Abstractions.dll

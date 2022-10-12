@@ -1,0 +1,298 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Documents\\uni\\5 сем\\спп\\lab_1\\Tracer\\Tracer.Example\\Tracer.Example.csproj": {}
+  },
+  "projects": {
+    "D:\\Documents\\uni\\5 сем\\спп\\lab_1\\Tracer\\Tracer.Core.Tests\\Tracer.Core.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Documents\\uni\\5 сем\\спп\\lab_1\\Tracer\\Tracer.Core.Tests\\Tracer.Core.Tests.csproj",
+        "projectName": "Tracer.Core.Tests",
+        "projectPath": "D:\\Documents\\uni\\5 сем\\спп\\lab_1\\Tracer\\Tracer.Core.Tests\\Tracer.Core.Tests.csproj",
+        "packagesPath": "C:\\Users\\tanja\\.nuget\\packages\\",
+        "outputPath": "D:\\Documents\\uni\\5 сем\\спп\\lab_1\\Tracer\\Tracer.Core.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\tanja\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.1.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.3, )"
+            },
+            "NUnit.Analyzers": {
+              "target": "Package",
+              "version": "[3.3.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.2.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.2-beta2, )"
+            },
+            "YamlDotNet": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Documents\\uni\\5 сем\\спп\\lab_1\\Tracer\\Tracer.Core\\Tracer.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Documents\\uni\\5 сем\\спп\\lab_1\\Tracer\\Tracer.Core\\Tracer.Core.csproj",
+        "projectName": "Tracer.Core",
+        "projectPath": "D:\\Documents\\uni\\5 сем\\спп\\lab_1\\Tracer\\Tracer.Core\\Tracer.Core.csproj",
+        "packagesPath": "C:\\Users\\tanja\\.nuget\\packages\\",
+        "outputPath": "D:\\Documents\\uni\\5 сем\\спп\\lab_1\\Tracer\\Tracer.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\tanja\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.2-beta2, )"
+            },
+            "YamlDotNet": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Documents\\uni\\5 сем\\спп\\lab_1\\Tracer\\Tracer.Example\\Tracer.Example.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Documents\\uni\\5 сем\\спп\\lab_1\\Tracer\\Tracer.Example\\Tracer.Example.csproj",
+        "projectName": "Tracer.Example",
+        "projectPath": "D:\\Documents\\uni\\5 сем\\спп\\lab_1\\Tracer\\Tracer.Example\\Tracer.Example.csproj",
+        "packagesPath": "C:\\Users\\tanja\\.nuget\\packages\\",
+        "outputPath": "D:\\Documents\\uni\\5 сем\\спп\\lab_1\\Tracer\\Tracer.Example\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\tanja\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Documents\\uni\\5 сем\\спп\\lab_1\\Tracer\\Tracer.Core.Tests\\Tracer.Core.Tests.csproj": {
+                "projectPath": "D:\\Documents\\uni\\5 сем\\спп\\lab_1\\Tracer\\Tracer.Core.Tests\\Tracer.Core.Tests.csproj"
+              },
+              "D:\\Documents\\uni\\5 сем\\спп\\lab_1\\Tracer\\Tracer.Core\\Tracer.Core.csproj": {
+                "projectPath": "D:\\Documents\\uni\\5 сем\\спп\\lab_1\\Tracer\\Tracer.Core\\Tracer.Core.csproj"
+              },
+              "D:\\Documents\\uni\\5 сем\\спп\\lab_1\\Tracer\\Tracer.Serialization.Abstractions\\Tracer.Serialization.Abstractions.csproj": {
+                "projectPath": "D:\\Documents\\uni\\5 сем\\спп\\lab_1\\Tracer\\Tracer.Serialization.Abstractions\\Tracer.Serialization.Abstractions.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.2-beta2, )"
+            },
+            "YamlDotNet": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Documents\\uni\\5 сем\\спп\\lab_1\\Tracer\\Tracer.Serialization.Abstractions\\Tracer.Serialization.Abstractions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Documents\\uni\\5 сем\\спп\\lab_1\\Tracer\\Tracer.Serialization.Abstractions\\Tracer.Serialization.Abstractions.csproj",
+        "projectName": "Tracer.Serialization.Abstractions",
+        "projectPath": "D:\\Documents\\uni\\5 сем\\спп\\lab_1\\Tracer\\Tracer.Serialization.Abstractions\\Tracer.Serialization.Abstractions.csproj",
+        "packagesPath": "C:\\Users\\tanja\\.nuget\\packages\\",
+        "outputPath": "D:\\Documents\\uni\\5 сем\\спп\\lab_1\\Tracer\\Tracer.Serialization.Abstractions\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\tanja\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Documents\\uni\\5 сем\\спп\\lab_1\\Tracer\\Tracer.Core\\Tracer.Core.csproj": {
+                "projectPath": "D:\\Documents\\uni\\5 сем\\спп\\lab_1\\Tracer\\Tracer.Core\\Tracer.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.2-beta2, )"
+            },
+            "YamlDotNet": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
