@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Documents\\uni\\5 сем\\спп\\lab_1\\Tracer\\Tracer.Core\\Tracer.Core.csproj": {}
+    "C:\\Users\\Иван\\Desktop\\Уник\\СПП\\LR1\\Tracer\\Tracer.Core\\Tracer.Core.csproj": {}
   },
   "projects": {
-    "D:\\Documents\\uni\\5 сем\\спп\\lab_1\\Tracer\\Tracer.Core\\Tracer.Core.csproj": {
+    "C:\\Users\\Иван\\Desktop\\Уник\\СПП\\LR1\\Tracer\\Tracer.Core\\Tracer.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Documents\\uni\\5 сем\\спп\\lab_1\\Tracer\\Tracer.Core\\Tracer.Core.csproj",
+        "projectUniqueName": "C:\\Users\\Иван\\Desktop\\Уник\\СПП\\LR1\\Tracer\\Tracer.Core\\Tracer.Core.csproj",
         "projectName": "Tracer.Core",
-        "projectPath": "D:\\Documents\\uni\\5 сем\\спп\\lab_1\\Tracer\\Tracer.Core\\Tracer.Core.csproj",
-        "packagesPath": "C:\\Users\\tanja\\.nuget\\packages\\",
-        "outputPath": "D:\\Documents\\uni\\5 сем\\спп\\lab_1\\Tracer\\Tracer.Core\\obj\\",
+        "projectPath": "C:\\Users\\Иван\\Desktop\\Уник\\СПП\\LR1\\Tracer\\Tracer.Core\\Tracer.Core.csproj",
+        "packagesPath": "C:\\Users\\Иван\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Иван\\Desktop\\Уник\\СПП\\LR1\\Tracer\\Tracer.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\tanja\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Иван\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -64,7 +64,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

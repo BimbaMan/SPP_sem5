@@ -159,7 +159,9 @@
           "lib/netcoreapp2.1/Microsoft.TestPlatform.Utilities.dll": {},
           "lib/netcoreapp2.1/Microsoft.VisualStudio.TestPlatform.Common.dll": {},
           "lib/netcoreapp2.1/Microsoft.VisualStudio.TestPlatform.ObjectModel.dll": {},
-          "lib/netcoreapp2.1/testhost.dll": {}
+          "lib/netcoreapp2.1/testhost.dll": {
+            "related": ".deps.json"
+          }
         },
         "runtime": {
           "lib/netcoreapp2.1/Microsoft.TestPlatform.CommunicationUtilities.dll": {},
@@ -169,7 +171,9 @@
           "lib/netcoreapp2.1/Microsoft.TestPlatform.Utilities.dll": {},
           "lib/netcoreapp2.1/Microsoft.VisualStudio.TestPlatform.Common.dll": {},
           "lib/netcoreapp2.1/Microsoft.VisualStudio.TestPlatform.ObjectModel.dll": {},
-          "lib/netcoreapp2.1/testhost.dll": {}
+          "lib/netcoreapp2.1/testhost.dll": {
+            "related": ".deps.json"
+          }
         },
         "resource": {
           "lib/netcoreapp2.1/cs/Microsoft.TestPlatform.CommunicationUtilities.resources.dll": {
@@ -312,19 +316,27 @@
       "Newtonsoft.Json/13.0.2-beta2": {
         "type": "package",
         "compile": {
-          "lib/net6.0/Newtonsoft.Json.dll": {}
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net6.0/Newtonsoft.Json.dll": {}
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
         }
       },
       "NuGet.Frameworks/5.11.0": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/NuGet.Frameworks.dll": {}
+          "lib/netstandard2.0/NuGet.Frameworks.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/NuGet.Frameworks.dll": {}
+          "lib/netstandard2.0/NuGet.Frameworks.dll": {
+            "related": ".xml"
+          }
         }
       },
       "NUnit/3.13.3": {
@@ -333,10 +345,14 @@
           "NETStandard.Library": "2.0.0"
         },
         "compile": {
-          "lib/netstandard2.0/nunit.framework.dll": {}
+          "lib/netstandard2.0/nunit.framework.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/nunit.framework.dll": {}
+          "lib/netstandard2.0/nunit.framework.dll": {
+            "related": ".xml"
+          }
         },
         "build": {
           "build/_._": {}
@@ -354,19 +370,27 @@
       "System.Reflection.Metadata/1.6.0": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/System.Reflection.Metadata.dll": {}
+          "lib/netstandard2.0/System.Reflection.Metadata.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/System.Reflection.Metadata.dll": {}
+          "lib/netstandard2.0/System.Reflection.Metadata.dll": {
+            "related": ".xml"
+          }
         }
       },
       "YamlDotNet/12.0.0": {
         "type": "package",
         "compile": {
-          "lib/net6.0/YamlDotNet.dll": {}
+          "lib/net6.0/YamlDotNet.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net6.0/YamlDotNet.dll": {}
+          "lib/net6.0/YamlDotNet.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Tracer.Core/1.0.0": {
@@ -1371,19 +1395,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\tanja\\.nuget\\packages\\": {}
+    "C:\\Users\\Иван\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Documents\\uni\\5 сем\\спп\\lab_1\\Tracer\\Tracer.Example\\Tracer.Example.csproj",
+      "projectUniqueName": "C:\\Users\\Иван\\Desktop\\Уник\\СПП\\LR1\\Tracer\\Tracer.Example\\Tracer.Example.csproj",
       "projectName": "Tracer.Example",
-      "projectPath": "D:\\Documents\\uni\\5 сем\\спп\\lab_1\\Tracer\\Tracer.Example\\Tracer.Example.csproj",
-      "packagesPath": "C:\\Users\\tanja\\.nuget\\packages\\",
-      "outputPath": "D:\\Documents\\uni\\5 сем\\спп\\lab_1\\Tracer\\Tracer.Example\\obj\\",
+      "projectPath": "C:\\Users\\Иван\\Desktop\\Уник\\СПП\\LR1\\Tracer\\Tracer.Example\\Tracer.Example.csproj",
+      "packagesPath": "C:\\Users\\Иван\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Иван\\Desktop\\Уник\\СПП\\LR1\\Tracer\\Tracer.Example\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\tanja\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Иван\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1397,14 +1421,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Documents\\uni\\5 сем\\спп\\lab_1\\Tracer\\Tracer.Core.Tests\\Tracer.Core.Tests.csproj": {
-              "projectPath": "D:\\Documents\\uni\\5 сем\\спп\\lab_1\\Tracer\\Tracer.Core.Tests\\Tracer.Core.Tests.csproj"
+            "C:\\Users\\Иван\\Desktop\\Уник\\СПП\\LR1\\Tracer\\Tracer.Core.Tests\\Tracer.Core.Tests.csproj": {
+              "projectPath": "C:\\Users\\Иван\\Desktop\\Уник\\СПП\\LR1\\Tracer\\Tracer.Core.Tests\\Tracer.Core.Tests.csproj"
             },
-            "D:\\Documents\\uni\\5 сем\\спп\\lab_1\\Tracer\\Tracer.Core\\Tracer.Core.csproj": {
-              "projectPath": "D:\\Documents\\uni\\5 сем\\спп\\lab_1\\Tracer\\Tracer.Core\\Tracer.Core.csproj"
+            "C:\\Users\\Иван\\Desktop\\Уник\\СПП\\LR1\\Tracer\\Tracer.Core\\Tracer.Core.csproj": {
+              "projectPath": "C:\\Users\\Иван\\Desktop\\Уник\\СПП\\LR1\\Tracer\\Tracer.Core\\Tracer.Core.csproj"
             },
-            "D:\\Documents\\uni\\5 сем\\спп\\lab_1\\Tracer\\Tracer.Serialization.Abstractions\\Tracer.Serialization.Abstractions.csproj": {
-              "projectPath": "D:\\Documents\\uni\\5 сем\\спп\\lab_1\\Tracer\\Tracer.Serialization.Abstractions\\Tracer.Serialization.Abstractions.csproj"
+            "C:\\Users\\Иван\\Desktop\\Уник\\СПП\\LR1\\Tracer\\Tracer.Serialization.Abstractions\\Tracer.Serialization.Abstractions.csproj": {
+              "projectPath": "C:\\Users\\Иван\\Desktop\\Уник\\СПП\\LR1\\Tracer\\Tracer.Serialization.Abstractions\\Tracer.Serialization.Abstractions.csproj"
             }
           }
         }
@@ -1443,7 +1467,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -5,19 +5,27 @@
       "Newtonsoft.Json/13.0.2-beta2": {
         "type": "package",
         "compile": {
-          "lib/net6.0/Newtonsoft.Json.dll": {}
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net6.0/Newtonsoft.Json.dll": {}
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
         }
       },
       "YamlDotNet/12.0.0": {
         "type": "package",
         "compile": {
-          "lib/net6.0/YamlDotNet.dll": {}
+          "lib/net6.0/YamlDotNet.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net6.0/YamlDotNet.dll": {}
+          "lib/net6.0/YamlDotNet.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Tracer.Core/1.0.0": {
@@ -106,19 +114,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\tanja\\.nuget\\packages\\": {}
+    "C:\\Users\\Иван\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Documents\\uni\\5 сем\\спп\\lab_1\\Tracer\\Tracer.Serialization.Abstractions\\Tracer.Serialization.Abstractions.csproj",
+      "projectUniqueName": "C:\\Users\\Иван\\Desktop\\Уник\\СПП\\LR1\\Tracer\\Tracer.Serialization.Abstractions\\Tracer.Serialization.Abstractions.csproj",
       "projectName": "Tracer.Serialization.Abstractions",
-      "projectPath": "D:\\Documents\\uni\\5 сем\\спп\\lab_1\\Tracer\\Tracer.Serialization.Abstractions\\Tracer.Serialization.Abstractions.csproj",
-      "packagesPath": "C:\\Users\\tanja\\.nuget\\packages\\",
-      "outputPath": "D:\\Documents\\uni\\5 сем\\спп\\lab_1\\Tracer\\Tracer.Serialization.Abstractions\\obj\\",
+      "projectPath": "C:\\Users\\Иван\\Desktop\\Уник\\СПП\\LR1\\Tracer\\Tracer.Serialization.Abstractions\\Tracer.Serialization.Abstractions.csproj",
+      "packagesPath": "C:\\Users\\Иван\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Иван\\Desktop\\Уник\\СПП\\LR1\\Tracer\\Tracer.Serialization.Abstractions\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\tanja\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Иван\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -132,8 +140,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Documents\\uni\\5 сем\\спп\\lab_1\\Tracer\\Tracer.Core\\Tracer.Core.csproj": {
-              "projectPath": "D:\\Documents\\uni\\5 сем\\спп\\lab_1\\Tracer\\Tracer.Core\\Tracer.Core.csproj"
+            "C:\\Users\\Иван\\Desktop\\Уник\\СПП\\LR1\\Tracer\\Tracer.Core\\Tracer.Core.csproj": {
+              "projectPath": "C:\\Users\\Иван\\Desktop\\Уник\\СПП\\LR1\\Tracer\\Tracer.Core\\Tracer.Core.csproj"
             }
           }
         }
@@ -172,7 +180,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }
