@@ -6,7 +6,7 @@ Threadslist:
       - InnerMethods: []
         Method_name: Sec_InnerMethod
         Method_class: Bar
-        TimeSpans: 65
+        TimeSpans: 63
       Method_name: InnerMethod
       Method_class: Bar
       TimeSpans: 170
@@ -14,23 +14,23 @@ Threadslist:
       - InnerMethods: []
         Method_name: Sec_InnerMethod
         Method_class: Bar
-        TimeSpans: 58
+        TimeSpans: 61
       Method_name: InnerMethod
       Method_class: Bar
-      TimeSpans: 161
+      TimeSpans: 170
     - InnerMethods: []
       Method_name: Sec_InnerMethod
       Method_class: Bar
-      TimeSpans: 53
+      TimeSpans: 61
     - InnerMethods:
       - InnerMethods: []
         Method_name: Sec_InnerMethod
         Method_class: Bar
-        TimeSpans: 60
+        TimeSpans: 63
       Method_name: InnerMethod
       Method_class: Bar
-      TimeSpans: 164
+      TimeSpans: 171
     Method_name: MyMethod
     Method_class: Foo
-    TimeSpans: 762
-  TotalTime: 762
+    TimeSpans: 781
+  TotalTime: 781

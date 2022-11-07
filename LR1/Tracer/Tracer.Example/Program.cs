@@ -72,7 +72,7 @@ internal static class Program
         using FileStream fileStream = File.Open(@"1result\Result.json", FileMode.Create);
         Assembly assembly =
             Assembly.LoadFrom(
-                @"D:\Documents\uni\5 сем\спп\lab_1\Tracer.Serialization\Tracer.Serialization.Json\bin\Debug\net6.0\Tracer.Serialization.Json.dll");
+                @"C:\Users\Иван\Desktop\Уник\СПП\LR1\Tracer.Serialization\Tracer.Serialization.Json\bin\Debug\net6.0\Tracer.Serialization.Json.dll");
         Type type = assembly.GetType("Tracer.Serialization.Json.SerializationJson", true);
         var obj = (ITraceResultSerializer) Activator.CreateInstance(type);
         obj.Serialize(traceResult, fileStream);
@@ -83,7 +83,7 @@ internal static class Program
         using FileStream fileStream = File.Open(@"1result\Result.yaml", FileMode.Create);
         Assembly assembly =
             Assembly.LoadFrom(
-                @"D:\Documents\uni\5 сем\спп\lab_1\Tracer.Serialization\Tracer.Serialization.Yaml\bin\Debug\net6.0\\Tracer.Serialization.Yaml.dll");
+                @"C:\Users\Иван\Desktop\Уник\СПП\LR1\Tracer.Serialization\Tracer.Serialization.Yaml\bin\Debug\net6.0\Tracer.Serialization.Yaml.dll");
         Type type = assembly.GetType("Tracer.Serialization.Yaml.SerializationYaml", true);
         var obj = (ITraceResultSerializer) Activator.CreateInstance(type);
         obj.Serialize(traceResult, fileStream);
@@ -94,7 +94,7 @@ internal static class Program
         using FileStream fileStream = File.Open(@"1result\Result.xml", FileMode.Create);
         Assembly assembly =
             Assembly.LoadFrom(
-                @"D:\Documents\uni\5 сем\спп\lab_1\Tracer.Serialization\Tracer.Serialization.Xml\bin\Debug\net6.0\Tracer.Serialization.Xml.dll");
+                @"C:\Users\Иван\Desktop\Уник\СПП\LR1\Tracer.Serialization\Tracer.Serialization.Xml\bin\Debug\net6.0\Tracer.Serialization.Xml.dll");
         Type type = assembly.GetType("Tracer.Serialization.Xml.SerializationXml", true);
         var obj = (ITraceResultSerializer) Activator.CreateInstance(type);
         obj.Serialize(traceResult, fileStream);
