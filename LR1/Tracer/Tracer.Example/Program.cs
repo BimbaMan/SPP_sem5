@@ -59,6 +59,14 @@ internal static class Program
     static void Main()
     {
         ITracer tracer = new Tracer.Core.Tracer();
+
+        Thread newThread = new Thread(() =>
+        {
+            var buff = new Foo(tracer);
+            buff.MyMethod();
+        });
+        newThread.Start();
+        newThread.Join();
         var buff = new Foo(tracer);
         buff.MyMethod();
         var result = tracer.GetTraceResult();

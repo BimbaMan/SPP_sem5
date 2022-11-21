@@ -1,0 +1,57 @@
+﻿<Window x:Class="DirectoryScaner.WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DirectoryScaner.WPF"
+        xmlns:model="clr-namespace:DirectoryScanner.Core;assembly=DirectoryScanner.Core"
+        mc:Ignorable="d"
+        x:Name="UI"
+        Title="SuperProgram" Height="485" Width="620">
+    <Grid>
+        <Border BorderBrush="DarkBlue" BorderThickness="2" Background="DarkCyan" Margin="0,71,0,0" Padding="4">
+            <TreeView x:Name="treeView1" Margin="14,17,7,7" RenderTransformOrigin="0.5,0.5">
+                <TreeView.Resources>
+                    <HierarchicalDataTemplate  DataType="{x:Type model:DirectoryFile}" ItemsSource="{Binding Childs}">
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source="D:/C#/DS/Images/folder.png" Width ="24" Height="24" Margin="2,2,10,2" />
+                            <TextBlock FontSize="18" Text="{Binding Name}" />
+                            <TextBlock FontSize="18" Text="  [" Foreground="Black" />
+                            <TextBlock FontSize="18" Text="{Binding FormatedSize}" Foreground="Black" />
+                            <TextBlock FontSize="18" Text=",  " Foreground="Black" />
+                            <TextBlock FontSize="18" Text="{Binding FormatedPercent}" Foreground="Black" />
+                            <TextBlock FontSize="18" Text="]" Foreground="Black" />
+                        </StackPanel>
+                    </HierarchicalDataTemplate>
+                    <DataTemplate DataType="{x:Type model:FileFile}">
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source="D:/C#/DS/Images/file.png" Width ="20" Height="30" Margin="2,2,10,2" />
+                            <TextBlock FontSize="18" Text="{Binding Name}" />
+                            <TextBlock FontSize="18" Text="  [" Foreground="Black" />
+                            <TextBlock FontSize="18" Text="{Binding FormatedSize}" Foreground="Black" />
+                            <TextBlock FontSize="18" Text=",  " Foreground="Black" />
+                            <TextBlock FontSize="18" Text="{Binding FormatedPercent}" Foreground="Black" />
+                            <TextBlock FontSize="18" Text="]" Foreground="Black" />
+                        </StackPanel>
+                    </DataTemplate>
+                </TreeView.Resources>
+                <TreeView.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform AngleX="-0.89"/>
+                        <RotateTransform/>
+                        <TranslateTransform X="-3.651"/>
+                    </TransformGroup>
+                </TreeView.RenderTransform>
+            </TreeView>
+        </Border>
+        <Border BorderBrush="DarkBlue" BorderThickness="2" Background="DarkBlue" Padding="4" Height="81" VerticalAlignment="Top">
+            <DockPanel VerticalAlignment="Top" LastChildFill="True">
+                <Border Margin="4, 4, 4, 4" DockPanel.Dock="Right"  />
+                <TextBox Margin="4" x:Name="OutputFile" FontSize="18" Text="{Binding Tag, ElementName=OpenFileBTN}" TextChanged="OutputFile_TextChanged" Width="595" RenderTransformOrigin="0.521,0.554" />
+            </DockPanel>
+        </Border>
+        <Button x:Name="OpenFileBTN" Padding="3" Margin="84,40,329,368"  Content="Process" Click="InputFile_Click" Tag="Enter your path here..." RenderTransformOrigin="0.534,1.003"/>
+        <Button x:Name="CancelBTN" Padding="3"  Content="Cancel" Click="CancelBTN_Click" Margin="314,40,99,368" />
+    </Grid>
+</Window>

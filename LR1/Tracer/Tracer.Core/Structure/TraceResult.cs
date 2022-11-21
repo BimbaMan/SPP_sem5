@@ -2,6 +2,7 @@
 
 public class TraceResult
 {
+    private readonly object Locker = new object();
     public TraceResult()
     {
         _threadslist = new List<TraceThread>();
@@ -17,7 +18,10 @@ public class TraceResult
         if (thread == null)
         {
             thread = new TraceThread() {Id = threadId};
-            _threadslist.Add(thread);
+            lock (Locker)
+            {
+                _threadslist.Add(thread);
+            }
         }
 
         thread.AddMethod(method);
