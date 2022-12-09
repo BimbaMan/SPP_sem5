@@ -22,6 +22,7 @@ namespace Faker.Tests.TestClasses
         public UserWithManyConstructors(int id, string name)
         {
             this.id = id;
+            throw new Exception();
             this.name = name;
         }
     }

@@ -9,8 +9,7 @@ namespace Faker.Core
     {
         public T Create<T>() => (T)Create(typeof(T));
         private HashSet<Type> _dependens = new();
-
-        //TODO add processing of class circular dependency 
+        
         private object Create(Type type)
         {
             if (SimpleGenerator.SimpleGenerators.ContainsKey(type))
@@ -38,30 +37,45 @@ namespace Faker.Core
             _dependens.Remove(type);
             return result;
         }
-
+        
         private object CreateObj(Type type)
         {
-            /*
-             * In case, if class has many constructors, it will create object with the largest constructor
-             */
-            var constructor = type.GetConstructors().MaxBy(x => x.GetParameters().Length);
+            object result;
+            ConstructorInfo constructor = null;
+            result = null;
+            var sortedConstructors = type
+                .GetConstructors()
+                .OrderByDescending(info => info.GetParameters().Length)
+                .ToList();
+            foreach (var constructorToCreate in sortedConstructors)
+            {
+                try
+                {
+                    constructor = constructorToCreate;
+                    result = CreateObj(constructorToCreate);
+                    if (result != null)
+                    {
+                        break;
+                    }
+                }
+                catch (Exception e)
+                {
+                    
+                }
+            }
             var parameters = constructor.GetParameters();
-
             var publicSetters = type.GetProperties().Where(x => x.CanWrite && x.SetMethod.IsPublic);
             IEnumerable<FieldInfo> publicFields = type.GetFields().Where(x => x.IsPublic);
 
             publicSetters = publicSetters.Where(x => !parameters.Any(y => x.Name == "set_" + y.Name));
             publicFields = publicFields.Where(x => !parameters.Any(y => y.Name == x.Name)).ToArray();
-
-            object result = CreateObj(constructor);  //!!!!!
-
+            
             foreach (var field in publicFields)
                 field.SetValue(result, Create(field.FieldType));
             foreach (var prop in publicSetters)
                 prop.SetValue(result, Create(prop.PropertyType));
             return result;
         }
-
         private object CreateObj(ConstructorInfo constructor)
         {
             List<object> parametersList = new();
