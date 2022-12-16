@@ -1,0 +1,30 @@
+C:\Users\Alex\Desktop\TestsGenerator-main\TestsGeneratorDll\bin\Debug\TestsGeneratorDll.dll
+C:\Users\Alex\Desktop\TestsGenerator-main\TestsGeneratorDll\bin\Debug\TestsGeneratorDll.pdb
+C:\Users\Alex\Desktop\TestsGenerator-main\TestsGeneratorDll\obj\Debug\TestsGeneratorDll.csproj.AssemblyReference.cache
+C:\Users\Alex\Desktop\TestsGenerator-main\TestsGeneratorDll\obj\Debug\TestsGeneratorDll.csproj.CoreCompileInputs.cache
+C:\Users\Alex\Desktop\TestsGenerator-main\TestsGeneratorDll\obj\Debug\TestsGeneratorDll.dll
+C:\Users\Alex\Desktop\TestsGenerator-main\TestsGeneratorDll\obj\Debug\TestsGeneratorDll.pdb
+D:\БГУИР\3 курс\5 семестр\СПП\Лабораторные\Лаба4\TestsGenerator-main\TestsGenerator-main\TestsGeneratorDll\bin\Debug\TestsGeneratorDll.dll
+D:\БГУИР\3 курс\5 семестр\СПП\Лабораторные\Лаба4\TestsGenerator-main\TestsGenerator-main\TestsGeneratorDll\bin\Debug\TestsGeneratorDll.pdb
+D:\БГУИР\3 курс\5 семестр\СПП\Лабораторные\Лаба4\TestsGenerator-main\TestsGenerator-main\TestsGeneratorDll\obj\Debug\TestsGeneratorDll.csproj.AssemblyReference.cache
+D:\БГУИР\3 курс\5 семестр\СПП\Лабораторные\Лаба4\TestsGenerator-main\TestsGenerator-main\TestsGeneratorDll\obj\Debug\TestsGeneratorDll.csproj.CoreCompileInputs.cache
+D:\БГУИР\3 курс\5 семестр\СПП\Лабораторные\Лаба4\TestsGenerator-main\TestsGenerator-main\TestsGeneratorDll\obj\Debug\TestsGeneratorDll.dll
+D:\БГУИР\3 курс\5 семестр\СПП\Лабораторные\Лаба4\TestsGenerator-main\TestsGenerator-main\TestsGeneratorDll\obj\Debug\TestsGeneratorDll.pdb
+C:\Users\Lenovo\OneDrive\Документы\GitHub\MPP-Labs\Lab4\TestsGeneratorDll\bin\Debug\TestsGeneratorDll.dll
+C:\Users\Lenovo\OneDrive\Документы\GitHub\MPP-Labs\Lab4\TestsGeneratorDll\bin\Debug\TestsGeneratorDll.pdb
+C:\Users\Lenovo\OneDrive\Документы\GitHub\MPP-Labs\Lab4\TestsGeneratorDll\obj\Debug\TestsGeneratorDll.csproj.AssemblyReference.cache
+C:\Users\Lenovo\OneDrive\Документы\GitHub\MPP-Labs\Lab4\TestsGeneratorDll\obj\Debug\TestsGeneratorDll.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\OneDrive\Документы\GitHub\MPP-Labs\Lab4\TestsGeneratorDll\obj\Debug\TestsGeneratorDll.dll
+C:\Users\Lenovo\OneDrive\Документы\GitHub\MPP-Labs\Lab4\TestsGeneratorDll\obj\Debug\TestsGeneratorDll.pdb
+C:\Users\Иван\Desktop\СПП Пелих\MPP-Labs\Lab4\TestsGeneratorDll\bin\Debug\TestsGeneratorDll.dll
+C:\Users\Иван\Desktop\СПП Пелих\MPP-Labs\Lab4\TestsGeneratorDll\bin\Debug\TestsGeneratorDll.pdb
+C:\Users\Иван\Desktop\СПП Пелих\MPP-Labs\Lab4\TestsGeneratorDll\obj\Debug\TestsGeneratorDll.csproj.AssemblyReference.cache
+C:\Users\Иван\Desktop\СПП Пелих\MPP-Labs\Lab4\TestsGeneratorDll\obj\Debug\TestsGeneratorDll.csproj.CoreCompileInputs.cache
+C:\Users\Иван\Desktop\СПП Пелих\MPP-Labs\Lab4\TestsGeneratorDll\obj\Debug\TestsGeneratorDll.dll
+C:\Users\Иван\Desktop\СПП Пелих\MPP-Labs\Lab4\TestsGeneratorDll\obj\Debug\TestsGeneratorDll.pdb
+C:\Users\Иван\Desktop\Уник\СПП\LR4\TestsGeneratorDll\bin\Debug\TestsGeneratorDll.dll
+C:\Users\Иван\Desktop\Уник\СПП\LR4\TestsGeneratorDll\bin\Debug\TestsGeneratorDll.pdb
+C:\Users\Иван\Desktop\Уник\СПП\LR4\TestsGeneratorDll\obj\Debug\TestsGeneratorDll.csproj.AssemblyReference.cache
+C:\Users\Иван\Desktop\Уник\СПП\LR4\TestsGeneratorDll\obj\Debug\TestsGeneratorDll.csproj.CoreCompileInputs.cache
+C:\Users\Иван\Desktop\Уник\СПП\LR4\TestsGeneratorDll\obj\Debug\TestsGeneratorDll.dll
+C:\Users\Иван\Desktop\Уник\СПП\LR4\TestsGeneratorDll\obj\Debug\TestsGeneratorDll.pdb
