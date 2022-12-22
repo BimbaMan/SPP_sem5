@@ -27,7 +27,7 @@ namespace TestsGeneratorDll.Includes
 
                 
                 List<MethodInfo> classMethods = new List<MethodInfo>(methodInfos.Where(methodItem
-                    => methodItem.DeclaringType == method.DeclaringType).ToList()); //список методов для выбранного класса
+                    => methodItem.DeclaringType == method.DeclaringType).ToList()); 
 
                 GenerateTestsFromClassMethods(classMethods);
 
@@ -52,9 +52,6 @@ namespace TestsGeneratorDll.Includes
                 else
                     numberOfCurrentlyWorkingThreads++;
             }
-            //Когда оператор await приостанавливает включающий метод async, элемент управления возвращается вызывающему объекту метода.
-            //Оператор await не блокирует поток, который вычисляет асинхронный метод
-            //сообщает компилятору, что async-метод не может быть продолжен до тех пор, пока не завершится асинхронный await-процесс;
             await DoWork(methodInfos);
         }
 
@@ -65,7 +62,7 @@ namespace TestsGeneratorDll.Includes
             
             result.Append("public class " + method.DeclaringType.FullName.Replace(method.DeclaringType.Namespace.ToString(), "")
                 .ToString().Replace(".", "").Replace("+", "_") + "TESTS\n");
-            result.Append("{\n\n"); //создается имя метода который будет записан в файл
+            result.Append("{\n\n");
 
             foreach (var classMethod in methodInfos)
             {
@@ -81,7 +78,7 @@ namespace TestsGeneratorDll.Includes
                         paramStr += $"{parameter.ParameterType.Name.Replace("`","")}And";
                     }
 
-                    paramStr = paramStr.Remove(paramStr.Length - 3, 3); //delete last "And"
+                    paramStr = paramStr.Remove(paramStr.Length - 3, 3); 
                     paramStr += classMethod.GetParameters().Length == 1 ? "Parameter_" : "Parameters_";
                     result.Append(paramStr);
                 }

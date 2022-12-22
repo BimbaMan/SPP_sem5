@@ -9,7 +9,7 @@ namespace TestsGeneratorDll.Includes
     {
         object syn = new object();
 
-        int numberOfTasksToComplete;    // количество задач на выполнение
+        int numberOfTasksToComplete;   
         List<MethodInfo> methodInfos = new List<MethodInfo>();
 
         public List<MethodInfo> GetMethodsInfo(List<Assembly> assemblies)
@@ -33,13 +33,12 @@ namespace TestsGeneratorDll.Includes
             var assembly = (Assembly)assemblyObj;
 
             
-            Type[] types = assembly.GetExportedTypes(); //получить все public классы
+            Type[] types = assembly.GetExportedTypes(); 
 
             foreach (Type type in types)
             {
-                MethodInfo[] methods = type.GetMethods(BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Static
-                                                       | BindingFlags.DeclaredOnly | BindingFlags.Instance);
-                                                        //DeclaredOnly унаследованные члены не учитываются
+                MethodInfo[] methods = type.GetMethods(BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Static 
+                                                                           | BindingFlags.DeclaredOnly | BindingFlags.Instance);
                 foreach (MethodInfo method in methods)
                 {
                     lock (syn)
